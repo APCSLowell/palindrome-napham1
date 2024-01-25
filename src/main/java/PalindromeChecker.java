@@ -37,7 +37,7 @@ public void tester()
 }
 public boolean palindrome(String word)
 {
-  if(reverse(sWord).equals(sWord)){
+  if(reverse(word).equals(word)){
     return true;
   }
   return false;
